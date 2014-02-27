@@ -1,0 +1,19 @@
+{
+    "name": "webb4you/dom-selector",
+    "authors": [
+        {
+            "name": "Ilan Rivers",
+            "email": "ilan@webb4you.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/dom-crawler": "2.5.*@dev",
+        "symfony/css-selector": "2.3.*@dev"
+	},
+    "autoload": {
+        "psr-0" : {
+			"W4Y\\Dom" : "src"
+		}
+    }
+}
